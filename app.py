@@ -1,11 +1,4 @@
-#-----------------------------------------------------------------------------------------
-# Copyright (c) Microsoft Corporation. All rights reserved.
-# Licensed under the MIT License. See LICENSE in the project root for license information.
-#-----------------------------------------------------------------------------------------
+import aula01 as aula01
+import aula02 as aula02
 
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-    return app.send_static_file("index.html")
+aula02.exibirGrafico()
